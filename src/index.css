@@ -1,0 +1,28 @@
+/* 將 @import 移到最頂部 */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 其他自定義樣式 */
+body {
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+nav {
+  background-color: #1d4ed8; /* 深藍色 */
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2563eb; /* 較淺的藍色 */
+}
+
+footer {
+  background-color: #1e293b; /* 深灰色 */
+}
